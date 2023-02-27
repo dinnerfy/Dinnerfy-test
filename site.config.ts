@@ -54,9 +54,10 @@ export default siteConfig({
     {
     title: '📥 Sign Up',
     pageId: '8a122350c6b74e40ba1193482bfa8051'
-  },
+  },{
     title: 'ℹ️ About',
     pageId: '36b5e96b198e4ed0a301f32262280d73'
   }
-   ])
+   ]}
+  )
 
