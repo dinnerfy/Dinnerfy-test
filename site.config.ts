@@ -2,22 +2,22 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '25edee023f774a96854ade7023ecae5e',
+  rootNotionPageId: 'b70c2ffca4284573b6b3a4290e9740bb',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Researh3 | Research OS for decentralized future',
-  domain: 'research3.xyz',
-  author: 'Research3 DAO',
+  name: 'Dinne Technology Inc',
+  domain: 'Dinnetechnolgies.com',
+  author: 'Dinner Tech',
 
   // open graph metadata (optional)
-  description: 'Research OS for decentralized future',
+  description: 'Tech for Future of Dinner',
 
   // social usernames (optional)
-  twitter: 'research3_xyz',
+  twitter: '',
   github: '',
   linkedin: '',
   // newsletter: '#', // optional newsletter URL
@@ -52,18 +52,7 @@ export default siteConfig({
   navigationStyle: 'custom',
    navigationLinks: [
     {
-    title: '🎯 Goal',
-    pageId: 'd7496259ebde4828963558c4106a1b3d'
-  },
-    {
-       title: '🏗 Project',
-       pageId: 'b46bf64bdd9b4ff3a1eca47f80e714aa'
-     },
-
-     {
-            title: '🤝 Join',
-            pageId: 'c79115a4816047469198048605b65e27'
-          }]
-
-})
+    title: '📥 Sign Up',
+    pageId: '8a122350c6b74e40ba1193482bfa8051'
+  })
 
