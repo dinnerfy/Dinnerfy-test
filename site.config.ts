@@ -54,5 +54,5 @@ export default siteConfig({
     {
     title: '📥 Sign Up',
     pageId: '8a122350c6b74e40ba1193482bfa8051'
-  })
+  }])
 
