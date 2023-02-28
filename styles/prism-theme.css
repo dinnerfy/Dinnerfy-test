@@ -1,4 +1,19 @@
 /* prism theme adjustments */
+.dark-mode {
+  --bg-color: #0F0105;
+}
+
+.notion-title {
+  text-align: left;
+}
+
+.notion-page-icon-hero
+{
+  left: 60px;
+}
+.notion-page-icon-hero.notion-page-icon-image{
+  margin-left: 20px;
+}
 
 .notion-code {
   background-color: rgba(249, 250, 251, 1);
