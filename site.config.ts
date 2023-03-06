@@ -9,9 +9,9 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Dinne Technology Inc',
+  name: 'Dinne Technologies, Inc.',
   domain: 'Dinnetechnolgies.com',
-  author: 'Dinner Tech',
+  author: 'Dinner Technologies, Inc.',
 
   // open graph metadata (optional)
   description: 'Tech for Future of Dinner',
