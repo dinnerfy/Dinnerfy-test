@@ -20,23 +20,23 @@ export default class MyDocument extends Document {
           </Head>
 
           <body>
-    
+
              <script
-            
+
               dangerouslySetInnerHTML={{
                 __html: `
 /** Inlined version of noflash.js from use-dark-mode */
-  
+
 
 ;(function () {
   document.body.classList.remove('light-mode')
   document.body.classList.add('dark-mode')
-  localStorage.setItem('darkMode', 'true')
+  localStorage.setItem('darkMode', 'false')
 
   // var storageKey = 'darkMode'
   // var classNameDark = 'dark-mode'
   // var classNameLight = 'light-mode'
-  
+
   // function setClassOnDocumentBody(darkMode) {
   //   document.body.classList.remove('light-mode')
   //   document.body.classList.add('dark-mode')
@@ -67,11 +67,11 @@ export default class MyDocument extends Document {
   //   localStorage.setItem(storageKey, JSON.stringify(isDarkMode))
   // }
 
-  
+
 })();
 `
               }}
-            /> 
+            />
             <Main />
 
             <NextScript />
